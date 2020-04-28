@@ -1,0 +1,25 @@
+.header {
+  padding: 16px 16px 16px 14px;
+  
+  @media (min-width: $screen-sm) {
+    padding-top: 8vw;
+    padding-left: 8px;
+  }
+
+  @media (min-width: $screen-lg) {
+    padding-top: 116px;
+    padding-left: 0;
+  }
+
+  &__title {
+    font-size     : 5vw;
+    letter-spacing: -0.45px;
+    @include font-semibold;
+    color: $titles-text;
+
+    @media (min-width: $screen-lg) {
+      font-size     : 40px;
+      letter-spacing: -0.2px;
+    }
+  }
+}

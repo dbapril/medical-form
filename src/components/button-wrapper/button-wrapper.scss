@@ -1,0 +1,9 @@
+.button-wrapper {
+  padding-bottom : 28px;
+  display        : flex;
+  justify-content: center;
+
+  @media (min-width: $screen-lg) {
+    padding-bottom: 31px;
+  }
+}

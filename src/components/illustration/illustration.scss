@@ -1,0 +1,8 @@
+.illustration {
+  width: 93%;
+  max-width: 463px;
+
+  @media (min-width: $screen-lg) {
+    margin-left: 2px;
+  }
+}

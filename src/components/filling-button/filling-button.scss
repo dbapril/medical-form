@@ -1,0 +1,44 @@
+.filling-button {
+  padding         : 5px 0px 10px 14px;
+  height          : 41px;
+  text-align      : left;
+  font-size       : 11px;
+  border          : none;
+  border-radius   : 4px;
+  width           : 243px;
+  background-color: $button-bg;
+  color           : $light-text;
+  @include font-bold;
+
+  @media (min-width: $screen-lg) {
+    padding  : 7px 0px 7px 16px;
+    width    : 284px;
+    height   : 49px;
+    font-size: 13px;
+  }
+
+  &__text {
+    margin-right: 15px;
+  }
+
+  &__delimiter {
+    border-left : 1px solid;
+    margin-right: 12px;
+    font-size   : 17px;
+    color       : #36A1AF;
+
+    @media (min-width: $screen-lg) {
+      margin-right: 18px;
+    }
+  }
+
+  &__union {
+    width        : 16px;
+    margin-right : 4px;
+    margin-bottom: -3px;
+
+    @media (min-width: $screen-lg) {
+      width: 18px;
+    }
+  }
+}
