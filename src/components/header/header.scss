@@ -15,7 +15,7 @@
     font-size     : 5vw;
     letter-spacing: -0.45px;
     @include font-semibold;
-    color: $titles-text;
+    color: $main-text;
 
     @media (min-width: $screen-lg) {
       font-size     : 40px;

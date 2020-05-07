@@ -1,0 +1,62 @@
+.form {
+  color: $main-text;
+
+  &__inner {
+    max-width: 699px;
+  }
+
+  &__header {
+    position      : relative;
+    text-align    : center;
+    padding-top   : 12px;
+    padding-bottom: 12px;
+    max-width     : 763px;
+    box-shadow    : 0px 0px 1px rgba(27, 35, 74, 0.15), 0px 4px 6px rgba(27, 35, 74, 0.06)
+  }
+
+  &__close-button {
+    position  : absolute;
+    left      : 17px;
+    top       : 14px;
+    padding   : 0;
+    border    : 0;
+    background: none;
+  }
+
+  &__title {
+    display  : inline-block;
+    font-size: 12px;
+    @include font-semibold;
+  }
+
+  &__body {
+    padding: 23px 14px 0 14px;
+  }
+
+  &__risk-factors-title {
+    margin-bottom : 16px;
+    font-size     : 15px;
+    letter-spacing: 0.1px;
+    @include font-medium;
+  }
+
+  &__tip {
+    margin-bottom: 23px;
+    padding      : 15px 12px 14px 12px;
+    font-size    : 12px;
+    line-height  : 17px;
+    border-radius: 8px;
+    @include font-medium;
+    background-color: $tip-bg;
+  }
+
+  &__smoking-factor {
+    margin-bottom: 18px;
+    font-size    : 12px;
+    @include font-semibold;
+  }
+
+  &__radio-block {
+    margin-bottom: 18px;
+  }
+}

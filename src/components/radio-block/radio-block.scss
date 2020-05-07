@@ -1,0 +1,24 @@
+.radio-block {
+  display    : flex;
+  align-items: center;
+
+  &__input {
+    display: none;
+  }
+
+  &__decor-label {
+    margin-right : 6px;
+    display      : inline-block;
+    border       : 2px solid $button-border;
+    box-sizing   : border-box;
+    width        : 17px;
+    height       : 17px;
+    border-radius: 50%;
+  }
+
+  &__content-label {
+    font-size: 12px;
+    @include font-medium;
+    color: $main-text;
+  }
+}
